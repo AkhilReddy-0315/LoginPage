@@ -68,3 +68,16 @@ p {
   flex-direction: column;
   align-items: center;
 }
+@media (max-width: 576px) {
+  .con1 {
+    width: 70vw;
+    margin: 10px;
+  }
+  .login-label {
+    font-size: 16px;
+    font-weight: 600px;
+  }
+  .login-input {
+    width: 70vw;
+  }
+}
